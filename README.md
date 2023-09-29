@@ -1,9 +1,9 @@
 # checkTelefono
 ## Descrizione Esercizio
-Nel seguente compito dovevamo trovare se il vettore stringa fosse un numero italiano controllando i numeri iniziale della stringa in 3 modi differenti : 
-1- Con il +39 e deve essere lunga esattamente 13. 
-2- Con lo 0039 e deve essere esattamente lunga 14.
-3- Oppure con il 3 e deve essere lunga esattamente 10.
+#### Nel seguente compito dovevamo trovare se il vettore stringa fosse un numero italiano controllando i numeri iniziale della stringa in 3 modi differenti : 
+#### 1- Con il +39 e deve essere lunga esattamente 13. 
+#### 2- Con lo 0039 e deve essere esattamente lunga 14.
+#### 3- Oppure con il 3 e deve essere lunga esattamente 10.
 ## Codice
 ```
   foreach (string stringa in input)
