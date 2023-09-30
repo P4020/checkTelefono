@@ -11,6 +11,8 @@
 #### \d{11} la stringa in input deve corrispondere ad esattamente 11 caratteri numeri togliendo quelli iniziali.
 #### $ termina la corrispondenza alla fine della stringa.
 ``` JavaScript
+public static string Check(string[] input)
+{
   foreach (string stringa in input)
         {
             // Verifica se la stringa inizia con +39 ed è lunga 13
@@ -29,4 +31,5 @@
                 return stringa;
             }
         }
+}
 ```
