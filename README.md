@@ -4,7 +4,12 @@
 #### 1- Con il +39 e deve essere lunga esattamente 13. 
 #### 2- Con lo 0039 e deve essere esattamente lunga 14.
 #### 3- Oppure con il 3 e deve essere lunga esattamente 10.
-### Codice
+### Descrizione del Codice
+#### Regex.IsMatch(stringa, @"^\+39\d{11}$") serve a controllare se nel costrutto Regex si trova una corrispondenza con lo stringa in input
+#### ^ con questo carattere inizia la ricerca all'inizio della stringa.
+#### \+39 corrisponde al carattere numerico e controlliamo se si trova nella stringa in input.
+#### \d{11} la stringa in input deve corrispondere ad esattamente 11 caratteri numeri togliendo quelli iniziali.
+#### $ termina la corrispondenza alla fine della stringa.
 ``` JavaScript
   foreach (string stringa in input)
         {
