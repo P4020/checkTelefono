@@ -5,7 +5,7 @@
 #### 2- Con lo 0039 e deve essere esattamente lunga 14.
 #### 3- Oppure con il 3 e deve essere lunga esattamente 10.
 ### Codice
-```
+``` JavaScript
   foreach (string stringa in input)
         {
             // Verifica se la stringa inizia con +39 ed è lunga 13
