@@ -31,6 +31,6 @@ public static string Check(string[] input)
                 return stringa;
             }
         }
-        return = "";
+        return "";
 }
 ```
